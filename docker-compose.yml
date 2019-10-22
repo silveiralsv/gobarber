@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  database:
+    image: postgres:11
+    args:
+      POSTGRES_PASSWORD: docker
+    ports:
+      - "5432:5432"
